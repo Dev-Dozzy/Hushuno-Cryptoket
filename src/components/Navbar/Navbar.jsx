@@ -10,7 +10,7 @@ function Navbar(){
       </div>
 
       <p>Cryptoket</p>
-      <input type="search" placeholder="Search item here" />
+      <input type="search" placeholder=" Search item here" />
       <ul>
         <li>
           <a href="#">Explore</a>

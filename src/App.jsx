@@ -2,8 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import TopSeller from "./components/Top Seller/topSeller";
 
-function App(){
-
+function App() {
   return (
     <>
       <Navbar />
@@ -13,4 +12,4 @@ function App(){
   );
 }
 
-export default App
+export default App;

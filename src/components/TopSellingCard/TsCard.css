@@ -1,0 +1,12 @@
+.card {
+  width: 180px;
+  background-color: hsl(274, 14%, 19%);
+  text-align: center;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 25px;
+}
+
+.card img{
+  justify-items: center;
+}
