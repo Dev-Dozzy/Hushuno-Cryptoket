@@ -1,0 +1,15 @@
+.hero-section{
+  width: 1028px;
+  height: 420px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.hero-section .imgHero{
+  max-width: 992px;
+  max-height: 300px;
+  
+}
