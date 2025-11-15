@@ -49,7 +49,7 @@ function Footer(){
       </div>
 
       <div className='footer-socials'>
-        <p>Cryptoket Inc, All Rights Reserved</p>
+        <p className='pp'>Cryptoket Inc, All Rights Reserved</p>
         <div className='socials'>
           <img src="/instagram.png" alt="Instagram link" />
           <img src="/twitter.png" alt="Twitter link" />

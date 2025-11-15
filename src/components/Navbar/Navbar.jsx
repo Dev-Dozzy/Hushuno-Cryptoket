@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo.png'
+import Logo from '/logo.png'
 import '../Navbar/Navbar.css'
 
 function Navbar(){
@@ -9,7 +9,7 @@ function Navbar(){
         <img src={Logo} alt="hushano cryptoket logo" />
       </div>
 
-      <p>Cryptoket</p>
+      
       <input type="search" placeholder=" Search item here" />
       <ul>
         <li>
