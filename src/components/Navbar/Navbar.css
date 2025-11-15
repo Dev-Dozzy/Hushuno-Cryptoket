@@ -11,7 +11,7 @@
   display: flex;
   gap: 20px;
   list-style: none;
-  gap: 70px;
+  gap: 30px;
   justify-items: center;
   width: 500px;
 }
@@ -29,7 +29,7 @@
 }
 
 .navbar input {
-  width: 500px;
+  width: 700px;
   height: 40px;
   background-color: black;
   color: white;
