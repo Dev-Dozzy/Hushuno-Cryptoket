@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import TopSeller from "./components/Top Seller/topSeller";
 import Footer from "./components/Footer/Footer";
 import NFT from "./components/NFTs/NFT";
+import LoadBtn from "./components/LoadMoreBtn/LoadBtn";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <TopSeller />
       <NFT />
+      <LoadBtn />
       <Footer />
     </>
   );

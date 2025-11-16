@@ -1,15 +1,19 @@
-import '../NFTCard/NFTCard.css'
+import '../NFTCard/NFTCard.css';
+import { use, useState } from "react";
 
 
 
-function NFTCard({ image, title, details, likes }) {
+function NFTCard({ image, title, details,}) {
+  const [likes, setLikes] = useState(0);
   return (
     <div className="nftcard">
       <img src={image} alt={title} />
       <h3>{title}</h3>
-      <div>
+      <div className="likes">
         <p>{details}</p>
-        <img src={likes} alt="" />
+        <button className="likeBtn" onClick={() => setLikes(likes + 1)}>
+          🩶 <span>{likes}</span>
+        </button>
       </div>
     </div>
   );

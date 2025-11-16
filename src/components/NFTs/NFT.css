@@ -1,3 +1,7 @@
 .nft-list{
-  display: inline-block;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 60px auto;
+  gap: 20px;
 }

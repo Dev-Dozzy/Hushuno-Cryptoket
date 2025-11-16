@@ -1,8 +1,27 @@
 .nftcard{
   width: 215px;
   height: 319px;
-  background-color: hsl(270, 14%, 17%);
-  padding: 12px;
+  background-color: hsla(270, 15%, 21%, 0.521);
+  padding: 10px;
   align-content: center;
-  border-radius: 12px;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nftcard h3{
+  font-size: 15px;
+}
+
+.likes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+
+.likeBtn{
+  background-color: hsla(270, 15%, 21%, 0);
+  border: none;
+  color: white;
+  cursor: pointer;
 }
