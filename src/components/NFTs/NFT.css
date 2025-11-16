@@ -2,6 +2,13 @@
   max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 60px auto;
+  margin: auto;
   gap: 20px;
+}
+
+.nft-heading{
+  max-width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 65px;
+  margin-top: 60px;
 }

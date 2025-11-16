@@ -8,13 +8,13 @@ function Footer(){
         <div>
           <h3>Cryptoket</h3>
           <p>Get the latest updates</p>
-          <div className='input-wrapper'>
+          <div className="input-wrapper">
             <input type="text" placeholder=" Your email" />
             <button>Email me!</button>
           </div>
         </div>
 
-        <div className='links'>
+        <div className="links">
           <h3>Cryptoket</h3>
           <ul>
             <li>
@@ -29,7 +29,7 @@ function Footer(){
           </ul>
         </div>
 
-        <div className='links'>
+        <div className="links">
           <h3>Support</h3>
           <ul>
             <li>
@@ -48,13 +48,24 @@ function Footer(){
         </div>
       </div>
 
-      <div className='footer-socials'>
-        <p className='pp'>Cryptoket Inc, All Rights Reserved</p>
-        <div className='socials'>
-          <img src="/instagram.png" alt="Instagram link" />
-          <img src="/twitter.png" alt="Twitter link" />
-          <img src="/telegram.png" alt="Telegram link" />
-          <img src="/discord.png" alt="Discord link" />
+      <div className="footer-socials">
+        <p className="pp">Cryptoket Inc, All Rights Reserved</p>
+        <div className="socials">
+          <a href="">
+            <img src="/instagram.png" alt="Instagram link" />
+          </a>
+
+          <a href="">
+            <img src="/twitter.png" alt="Twitter link" />
+          </a>
+
+          <a href="">
+            <img src="/telegram.png" alt="Telegram link" />
+          </a>
+
+          <a href="">
+            <img src="/discord.png" alt="Discord link" />
+          </a>
         </div>
       </div>
     </div>

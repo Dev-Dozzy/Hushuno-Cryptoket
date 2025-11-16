@@ -7,6 +7,7 @@ function NFT (){
 
   return (
     <>
+    <h2 className="nft-heading">Hot Bids</h2>
       <div className="nft-list">
         <NFTcard
           image="/image1.png"
