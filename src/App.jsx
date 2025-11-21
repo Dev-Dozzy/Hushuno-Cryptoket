@@ -1,22 +1,23 @@
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import TopSeller from "./components/Top Seller/topSeller";
-import Footer from "./components/Footer/Footer";
-import NFT from "./components/NFTs/NFT";
-import LoadBtn from "./components/LoadMoreBtn/LoadBtn";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+
+import MainLayout from "./layouts/MainLayout";
+import HomePage from "./pages/HomePage";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<HomePage />} />
+    </Route>
+  )
+);
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <TopSeller />
-      <NFT />
-      <LoadBtn />
-      <Footer />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
-
